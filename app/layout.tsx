@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Ubuntu } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
-const font = Ubuntu({
+const font = DM_Sans({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
 });
 
 export const metadata: Metadata = {
